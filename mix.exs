@@ -47,7 +47,10 @@ defmodule Poeticoins.MixProject do
       {:gettext, "~> 0.20"},
       {:jason, "~> 1.2"},
       {:dns_cluster, "~> 0.1.1"},
-      {:plug_cowboy, "~> 2.5"}
+      {:plug_cowboy, "~> 2.5"},
+      {:gun, "~> 2.0"},
+      {:certifi, "~> 2.12"},
+      {:cowlib, "~> 2.12.1", override: true}
     ]
   end
 
